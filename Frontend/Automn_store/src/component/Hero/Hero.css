@@ -1,0 +1,66 @@
+.hero {
+    height: 100vh; /* Sets the height of the hero section to be 100% of the viewport height */
+    display: flex; /* Makes the hero section a flex container */
+    background-image: url('..//src/component/Images/hero.png'); /* Sets a background image for the hero section */
+    background-size: cover; /* Ensures the background image covers the entire hero section */
+    background-position: center; /* Centers the background image within the hero section */
+}
+
+.heroleft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.heroleft h1{
+    font-family: Brush Script MT;
+    font-size: 62px;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(251, 250, 250), rgb(13, 59, 243)); /* Standard syntax for gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Standard syntax for background clipping */
+}
+.heroleft p{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(left, rgb(250, 246, 246), rgb(255, 0, 195)); /* For WebKit browsers */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: transparent;
+    color: rgb(56, 5, 47);
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.heroright {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove margin */
+}
+
+.heroright img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 550px; /* Limit the maximum width of the image */
+    max-height: 650px; /* Limit the maximum height of the image */
+}

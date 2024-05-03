@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo img{
+    gap: 10px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: -15px;
+}
+.navbar .nav-logo p{
+  font-size: 18px;
+  font-family: Algerian;
+  text-align: center;
+  font-weight: 300;
+  background: linear-gradient(to right, blueviolet,red,green); /* Standard syntax for gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+.nav-profile{
+    width: 75px;
+}

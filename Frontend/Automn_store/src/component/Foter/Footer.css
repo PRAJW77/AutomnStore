@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px; 
+    background: linear-gradient(180deg , #e8e1ff 0%,#e1ffea22 60%);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo and text horizontally */
+    flex-direction: column;
+    height: 150px;
+}
+.footer-logo img{
+    height: 50px;
+}
+
+.footer-logo p {
+    font-size: 46px;
+    font-family: Algerian;
+    text-align: center;
+    font-weight: 300;
+    background: linear-gradient(to right, blueviolet, red, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.footer-text {
+    text-align: center; /* Center the text */
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+.footer-links li{
+    cursor: pointer;
+}
+.footer-social-icons{
+    display: flex;
+    gap: 20px;
+}
+.footer-icons-container img{
+    gap: 20px;
+    padding: 10px;
+}
+.footer-copyrights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.footer-copyrights hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}
